@@ -76,13 +76,6 @@ python src/explore_fraud_data.py
 ## Ferramentas
 
 - **IBM Watson Studio** (Data Refinery) — limpeza, perfilamento e visualização interativa dos dados
-- **Python** (pandas, matplotlib) — reprodução da análise para este repositório
-
-## Próximos passos
-
-- [ ] Treinar um modelo supervisionado (ex: regressão logística ou árvore de decisão) usando `FLAG_FOR_FRAUD_INV` como alvo
-- [ ] Avaliar outras variáveis (ex: `INCIDENT_CAUSE`, `POLICE_REPORT`) como preditores
-- [ ] Comparar métricas de performance do modelo
 
 ---
 
