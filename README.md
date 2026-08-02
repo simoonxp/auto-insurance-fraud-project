@@ -2,8 +2,6 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/IBM%20Watson-006699?style=for-the-badge&logo=ibm&logoColor=white" />
 </p>
 
@@ -41,10 +39,7 @@ O dataset contém dados de reivindicações de seguros já aprovadas e pagas, in
 
 | Ferramenta | Uso |
 |---|---|
-| **Python 3** | Linguagem principal |
-| **pandas** | Manipulação e limpeza de dados |
-| **matplotlib / seaborn** | Visualização de dados |
-| **IBM Watson Studio** | Limpeza e perfilamento inicial (Data Refinery) |
+| **IBM Watson Studio** | Limpeza, perfilamento e visualização de dados (Data Refinery) |
 
 ---
 
@@ -100,22 +95,15 @@ A hipótese se confirma na maioria dos casos — o valor da reivindicação é u
 ## 🚀 Como Executar
 
 ### Pré-requisitos
-- Python 3.8+
-- pip
+- Conta no [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio) (gratuita)
 
 ### Passo a passo
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/simoonxp/auto-insurance-fraud-project.git
-cd auto-insurance-fraud-project
-
-# 2. Instale as dependências
-pip install -r requirements.txt
-
-# 3. Execute a análise
-python explore_fraud_data.py
-```
+1. Faça login no **IBM Watson Studio**
+2. Crie um novo projeto
+3. Importe o dataset `data/AutoInsClaims_csv_shaped_shaped.csv`
+4. Abra o **Data Refinery** e aplique as transformações descritas acima
+5. Exporte o dataset limpo e gere as visualizações
 
 ---
 
